@@ -607,9 +607,10 @@
     },
     {
       "fullPath": "presets/2025.12/rates/PeakFPV.txt",
-      "hash": "584fd2347526c35c227268ff183a541f63f399878fa08d4a7f5e97da92c4c70f",
+      "hash": "e7c706260bbfe40c3f8cf6cde017038569cba3ea019cc407142bd7a6cdb417c0",
       "title": "PeakFPV rates",
       "firmware_version": [
+        "2025.12",
         "2026.6"
       ],
       "category": "RATES",
