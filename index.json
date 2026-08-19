@@ -135,6 +135,7 @@
   "uniqueValues": {
     "firmware_version": [
       "2025.12",
+      "2026.6",
       "3.5",
       "4.2",
       "4.3",
@@ -156,6 +157,7 @@
     "author": [
       "Alex Campbell (Chief)",
       "Alex Vanover",
+      "andybrwr",
       "antonig",
       "Armando Gallegos (Mondo)",
       "AyyyKayyy - Anthony Knight",
@@ -179,6 +181,7 @@
       "Foxeer Harvey",
       "FPV_Cam",
       "FPVian",
+      "Funkolius",
       "Garban",
       "Grey pang",
       "IllusionFpv",
@@ -192,6 +195,7 @@
       "Jye Smith",
       "KMfpv",
       "LeadFingers",
+      "Michael-GGG",
       "MinChan Kim",
       "mouseFPV",
       "MrAlucardDante",
@@ -226,8 +230,13 @@
       "166Hz",
       "1ms",
       "1S",
+      "2 in",
+      "2 inch",
+      "2.2 inch prop",
       "2.5in",
       "2.5W",
+      "2\"",
+      "2\\\"",
       "20",
       "2022",
       "2023",
@@ -260,7 +269,7 @@
       "4S",
       "5",
       "5 In",
-      "5 inch",
+      "5 Inch",
       "5.5",
       "5\"",
       "500Hz",
@@ -330,6 +339,8 @@
       "camera",
       "camera_control",
       "Cgo",
+      "champ",
+      "champ2",
       "Chief",
       "chris",
       "cine",
@@ -373,6 +384,7 @@
       "divimath",
       "DJI",
       "dominator",
+      "DP",
       "DShot telemetry",
       "eachine",
       "ELRS",
@@ -395,14 +407,16 @@
       "FPVCycle",
       "FPVCycle TP3",
       "fpvian",
+      "frame",
       "freedom",
       "freedom spec",
       "FreedomSpec",
-      "Freestyle",
+      "freestyle",
       "freesytle",
       "freetyle",
       "FreshBread",
       "frsky",
+      "Funkolius",
       "fx2",
       "Garban",
       "geprc",
@@ -426,6 +440,8 @@
       "IllusionFpv",
       "immersion",
       "immersionRC",
+      "impetus",
+      "impetus 2",
       "ImpulseRC",
       "IRC",
       "IRC Tramp",
@@ -456,6 +472,7 @@
       "mck",
       "meteor",
       "MGP",
+      "micro",
       "MinChan",
       "MM",
       "mode",
@@ -490,11 +507,13 @@
       "openracer",
       "OpenVTx",
       "OSD",
+      "oxbt",
       "ozr",
       "panda",
       "pandarc",
       "partial",
       "Passthrough",
+      "PeakFPV",
       "pid",
       "PIDtoolbox",
       "pro32",
@@ -1222,6 +1241,23 @@
       ],
       "author": "Nicholas Young (Fader FPV)",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/2025.12/rates/PeakFPV.txt",
+      "hash": "584fd2347526c35c227268ff183a541f63f399878fa08d4a7f5e97da92c4c70f",
+      "title": "PeakFPV rates",
+      "firmware_version": [
+        "2026.6"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "PeakFPV",
+        "rates",
+        "actual"
+      ],
+      "author": "Betaflight",
+      "priority": 0
     },
     {
       "fullPath": "presets/2025.12/rates/defaults.txt",
@@ -2155,6 +2191,31 @@
       "priority": 10000000000
     },
     {
+      "fullPath": "presets/2025.12/tune/Funkolius_Impetus_Frame.txt",
+      "hash": "3cf8a63e7cd2b74ceb1bd1ad023c32dcd8d1757584223a5e883018bffffac5b4",
+      "title": "Funkolius - Impetus 2 Frame",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "impetus 2",
+        "impetus",
+        "micro",
+        "2 inch",
+        "2 in",
+        "2\"",
+        "2.2 inch prop",
+        "frame",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_3.5_tune.txt",
       "hash": "07b06b140fed022fa69c6c2438cf37677e5c43fbd1f960fb4f55bec1dfa5661b",
       "title": "AOS 3.5 tune by Chris Rosser",
@@ -2587,6 +2648,29 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/2025.12/tune/basher_jazzmutant_tune.txt",
+      "hash": "aa910f580d1c6c8c339f31ab8f258b77f24a8fd9bf04861bbfc8ef6d3edef544",
+      "title": "Basher 5\" 6S by JazzMutant",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "basher",
+        "freestyle",
+        "5 Inch",
+        "5 In",
+        "5\"",
+        "recopter",
+        "bando",
+        "JazzMutant"
+      ],
+      "author": "JazzMutant",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/2025.12/tune/blackbird_nextlevel.txt",
       "hash": "53ea94140986c7e43f7b7fb92b9d0f7d342de6c6949bb75788953a11c2242dba",
       "title": "Black Bird FPV | Next Level",
@@ -2698,6 +2782,26 @@
       ],
       "author": "JazzMutant",
       "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/oxbt_champ2_factory.txt",
+      "hash": "7e846d80319d8af7b53f61f2a7b494f9d2babfe26e7e36aca0732cd2ed6a86c3",
+      "title": "OXBT CHAMP2 Factory Preset",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "oxbt",
+        "champ2",
+        "champ",
+        "factory",
+        "pid",
+        "tune"
+      ],
+      "author": "Michael-GGG",
       "priority": 1000000000000
     },
     {
@@ -6162,6 +6266,32 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.3/vtx/Unify_Pro32_DP_SA2_1.txt",
+      "hash": "d36ffaa5dafae8765431653192f8aa19a1d769f16b1c6385607659130d6d229a",
+      "title": "TBS Unify Pro32 DP SA 2.1",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "2025.12",
+        "2026.6"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "tbs",
+        "unify",
+        "pro32",
+        "DP",
+        "SA 2.1"
+      ],
+      "author": "andybrwr",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.3/vtx/Unify_Pro32_HV_SA2_1.txt",
       "hash": "acd71d0d8f3983c55d3237e4af16ead53cd02a58a86edb1fa0d239b4aef8a345",
       "title": "TBS Unify Pro32 HV SA 2.1",
@@ -9246,6 +9376,31 @@
       ],
       "author": "Volker Göschl-Covrljan",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.5/tune/Funkolius_Impetus_Frame.txt",
+      "hash": "96301abc0cac07a9f3b70ebcd82e52194d161bdb38968d48b8c60d41db888859",
+      "title": "Funkolius - Impetus 2 Frame",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "impetus 2",
+        "impetus",
+        "micro",
+        "2 inch",
+        "2 in",
+        "2\\\"",
+        "2.2 inch prop",
+        "frame",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.5/tune/Street_League_LeadFingers.txt",
