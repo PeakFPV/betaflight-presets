@@ -2079,24 +2079,6 @@
       "priority": 100
     },
     {
-      "fullPath": "presets/2026.6/rates/PeakFPV.txt",
-      "hash": "e7c706260bbfe40c3f8cf6cde017038569cba3ea019cc407142bd7a6cdb417c0",
-      "title": "PeakFPV rates",
-      "firmware_version": [
-        "2025.12",
-        "2026.6"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "PeakFPV",
-        "rates",
-        "actual"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
       "title": "4.3 Filter settings for CLEAN build WITH NO RPM FILTERING.",
